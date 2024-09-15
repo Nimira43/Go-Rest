@@ -7,7 +7,7 @@ import (
 
 func main() {
 	server := gin.Default() 
-	server. GET("/events", getEvents)
+	server.GET("/events", getEvents)
 
 	server.Run(":8080") // localhost
 }
